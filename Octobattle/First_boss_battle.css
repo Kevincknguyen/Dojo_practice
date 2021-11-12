@@ -1,0 +1,202 @@
+/*------------------Screen wide changes---------------*/
+
+* {
+    list-style-type:none;
+    margin:0px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.border {
+    border:solid black;
+}
+
+.flex {
+    display: flex;
+    align-content: center;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+body {
+    background-color: skyblue;
+}
+/* ----------------Top bar edits--------------*/
+
+.top {
+    justify-content: space-between;
+}
+
+div.save {
+    justify-content: space-around;
+    flex:1;
+    border:solid blue;
+    padding:0px;
+    background-color: black;
+    
+}
+
+button {
+    color:blue;
+}
+.menu {
+    background-color: blue;
+    flex: 1;
+    justify-content: space-evenly;
+    padding: 0px;
+    border: solid black;
+    color: white;
+}
+
+
+/* -----------------Left bar edits------------------*/
+
+.left {
+    background-color: blue;
+    flex: 1;
+    border: solid black;
+    padding-left: 0px;
+}
+
+.turn_order {
+    width: 50px;
+}
+
+.belttwo {
+    width: 100px;
+    padding-right: 70px;
+    margin-right:70px;
+}
+
+/* ----------------middle bar edits*----------------*/
+.mid {
+    flex: 7;
+    background-image:url(164553.png);
+    background-repeat: no-repeat;
+}
+
+.yellowtext {
+    Font-size: 50px;
+    color:yellow;
+}
+.warning {
+    background-color: darkred;
+    display: flex;
+    align-items: center;
+    border: solid black;
+    margin:0px;
+    padding: 0px;
+
+}
+
+.prof {
+    background-color: skyblue;
+}
+
+.belt {
+    margin-left: 15%;
+    margin-top: 30%
+}
+.beltone {
+    width:500px;
+    height: 300px;
+}
+
+.hpone {
+    border:solid black;
+    flex: 8;
+    background-color:green;
+}
+
+.hptwo {
+    border:solid black;
+    flex: 1;
+    background-color:white;
+    border-left:none;
+}
+.screen {
+    justify-content: space-between;
+}
+
+.team {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.avatars img {
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Right bar edits*/
+
+.right {
+    background-color: blue;
+    flex: 1;
+}
+
+.items {
+    background-color: skyblue;
+}
+
+.limit_break_max {
+    background-color: snow;
+    height: 50px;
+    width: 30px;
+    margin: 100px 30px 0px 90px;
+    padding: 0px;
+    border:solid black;
+    border-bottom: none;
+}
+
+.limit_break_stat{
+    height: 200px;
+    width:30px;
+    background-color: yellow;
+    margin: 0px 30px 50px 90px;
+    padding: 0px;
+    border:solid black;
+    border-top: none;
+}
+
+
+.limitbreaktext {
+    color:gold;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid gold;
+    
+}
+
+.limitbreaktexthmm {
+    margin-left: 42px;
+}
+/*bottm*/
+
+.bottom {
+    justify-content: space-between;
+}
+
+.teammenu {
+    flex:1;
+    background-color: turquoise;
+    margin: 5px;
+}
+
+.pad {
+    padding-left: 70px;
+}
+.actions {
+    border-top: solid black;
+}
+
+.arrow {
+    position: absolute;
+    bottom: -680px;
+    right: 200px;
+}

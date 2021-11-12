@@ -3,6 +3,9 @@
     padding: 0px;
 }
 
+body {
+    background-color: black;
+}
 .flex {
     display: flex;
     align-content: center;
@@ -17,6 +20,16 @@
     color: white;
 }
 
+.main, .subheading {
+    width: 300px;
+    border: solid black;
+    margin-left: 100px;
+}
+
+.sub {
+    width: 100px;
+    border: solid blueviolet
+}
 ul {
     align-items: center;
 }
