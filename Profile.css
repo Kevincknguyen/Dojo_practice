@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex {
+    display: flex;
+    align-content: center;
+}
+
+.body {
+    display:flex;
+}
+.nav {
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    align-items: center;
+}
+li {
+    padding: 15px;
+    list-style-type: none;
+}
+.one {
+    background-color: aqua;
+    flex: 2;
+    justify-content: flex-end;
+    
+}
+
+.two {
+    background-color: blue;
+    flex: 1;
+    justify-content: flex-end;
+    
+}
+
+.subheading {
+    height: 100px;
+}
